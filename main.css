@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  'Roboto', sans-serif;
+}
+
+
+body {
+    background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(8,6, 133);
+    letter-spacing: 1px;
+    margin: 20px 0;
+}
+
+.todo-list {
+    width: 450px;
+    padding: 20px;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.list-header {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    gap: 20px;
+}
+
+.nome-tarefa {
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    outline: none;
+
+}
+
+button {
+    border: none;
+    background-color: rgb(8,6, 133);
+    outline: none;
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
+}
+
+.tarefa-completa {
+    padding: 10px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+    letter-spacing: 1px;
+    text-align: right;
+}
+
+.tarefa-concluida {
+    text-decoration: line-through;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <h1 class="title">Lista de Tarefas</h1>
+    </header>
+<div class="todo-list">
+    <form class="list-header">
+        <input type="text" class="nome-tarefa" required placeholder="Nome da tarefa" />
+        <button type="button" id="adicionar-botao"><b>Adicionar</b></button>
+    </form>
+</div>
+    <ul id="lista-tarefas">
+        <li class="tarefa-completa">
+        </li>
+    </ul>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
